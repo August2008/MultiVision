@@ -1,0 +1,31 @@
+{
+  "name": "MultiVision",
+  "version": "0.0.0",
+  "authors": [
+    "August2008 <davidlars99@gmail.com>"
+  ],
+  "description": "\"MEAN App Sample\"",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "toastr": "~2.1.0",
+    "angular": "~1.3.8",
+    "angular-resource": "~1.3.8"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  }
+}
