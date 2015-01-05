@@ -6,9 +6,6 @@ angular.module('app').config(function($routeProvider,$locationProvider) {
         requireBase: false
     });
     $routeProvider
-        .when('/', { templateUrl: '/partials/main', controller: 'mainCtrl'});
+        .when('/', { templateUrl: '/partials/main/main', controller: 'mvMainCtrl'});
 });
 
-angular.module('app').controller('mainCtrl', function($scope) {
-    $scope.myVar = 'AngularJS';
-});
